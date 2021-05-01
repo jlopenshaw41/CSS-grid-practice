@@ -18,40 +18,27 @@ body {
 }
 
 .a {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 6;
+    grid-area: 2 / 2 / 4 / 6;
     background-color: #DEC5E3;
 }
 
 .b {
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 6;
-    grid-column-end: 8;
+    grid-area: 3 / 6 / 5 / 8;
     background-color: #CDEDFD;
 }
 
 .c {
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 8;
-    grid-column-end: 10;
+    grid-area: 3 / 8 / 5 / 10;
     background-color: #B6DCFE;
 }
 
 .d {
-    grid-row-start: 3;
-    grid-row-end: 7;
-    grid-column-start: 10;
-    grid-column-end: 12;
+    grid-area: 3 / 10 / 7 / 12;
     background-color: #A9F8FB;
 }
 
 .e {
-    grid-row: 4 / 6;
-    grid-column: 3 / 6;
+    grid-area: 4 / 3 / 6 / 6;
     background-color: #81F7E5;
 }
 
